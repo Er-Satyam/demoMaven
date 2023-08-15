@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[createCustomer]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-08-03T19:38:00 IST" name="Suite" finished-at="2023-08-03T19:38:10 IST" duration-ms="10123">
+  <suite started-at="2023-08-10T19:40:38 IST" name="Suite" finished-at="2023-08-10T19:41:47 IST" duration-ms="69042">
     <groups>
     </groups>
-    <test started-at="2023-08-03T19:38:00 IST" name="Test" finished-at="2023-08-03T19:38:10 IST" duration-ms="10123">
-      <class name="com.demoMaven.testscript.CustomerModue">
-        <test-method signature="customerModule()[pri:0, instance:com.demoMaven.testscript.CustomerModue@77fbd92c]" started-at="2023-08-03T19:38:00 IST" name="customerModule" finished-at="2023-08-03T19:38:10 IST" duration-ms="10084" status="PASS">
+    <test started-at="2023-08-10T19:40:38 IST" name="Test" finished-at="2023-08-10T19:41:47 IST" duration-ms="69042">
+      <class name="com.am_webtech.testscript.Login">
+        <test-method signature="quickAction()[pri:0, instance:com.am_webtech.testscript.Login@14cd1699]" started-at="2023-08-10T19:40:38 IST" name="quickAction" finished-at="2023-08-10T19:40:50 IST" duration-ms="12250" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[createCustomer]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- customerModule -->
-      </class> <!-- com.demoMaven.testscript.CustomerModue -->
+        </test-method> <!-- quickAction -->
+        <test-method signature="testLoginLogout()[pri:0, instance:com.am_webtech.testscript.Login@14cd1699]" started-at="2023-08-10T19:40:50 IST" name="testLoginLogout" finished-at="2023-08-10T19:41:04 IST" duration-ms="14562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLogout -->
+        <test-method signature="testLoginNull()[pri:0, instance:com.am_webtech.testscript.Login@14cd1699]" started-at="2023-08-10T19:41:04 IST" name="testLoginNull" finished-at="2023-08-10T19:41:21 IST" duration-ms="16967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginNull -->
+        <test-method signature="testPunchIn()[pri:0, instance:com.am_webtech.testscript.Login@14cd1699]" started-at="2023-08-10T19:41:21 IST" name="testPunchIn" finished-at="2023-08-10T19:41:47 IST" duration-ms="25216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPunchIn -->
+      </class> <!-- com.am_webtech.testscript.Login -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
